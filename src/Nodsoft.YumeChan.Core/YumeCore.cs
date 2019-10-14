@@ -49,7 +49,7 @@ namespace Nodsoft.YumeChan.Core
 		 *	Internet or by using other methods such as reading 
 		 *	a configuration. 
 		 **/
-		private string BotToken { get; } = Environment.GetEnvironmentVariable("YumeChan.Token");
+		private string BotToken { get; } = Environment.GetEnvironmentVariable("BloodyBot.Token");
 
 
 		// Constructors
