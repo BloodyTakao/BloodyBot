@@ -229,7 +229,7 @@ namespace Nodsoft.YumeChan.Core
 			{
 				int argPosition = 0;
 
-				if (message.HasStringPrefix("==", ref argPosition) || message.HasMentionPrefix(Client.CurrentUser, ref argPosition))
+				if (message.HasStringPrefix("&&", ref argPosition) || message.HasMentionPrefix(Client.CurrentUser, ref argPosition))
 				{
 					await Logger.Log(new LogMessage(LogSeverity.Verbose, "Commands", $"Command \"{message.Content}\" received from User {message.Author.Mention}."));
 
