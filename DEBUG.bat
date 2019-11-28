@@ -1,7 +1,6 @@
 dotnet restore
 dotnet build --configuration Debug
 
-cd "build"
-start Nodsoft.YumeChan.ConsoleRunner.exe
+call RUN-CONSOLE.bat
 
 pause
